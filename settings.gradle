@@ -1,8 +1,6 @@
 rootProject.name = 'microservice-era'
 
-include 'istad-common'
-include 'istad-common:istad-common-domain'
-include 'istad-common:istad-common-restapi'
-include 'microservice'
-include 'microservice:business-service'
-include 'microservice:customer-service'
+includeBuild 'istad-common'
+includeBuild 'microservice'
+
+include 'build-logic'
