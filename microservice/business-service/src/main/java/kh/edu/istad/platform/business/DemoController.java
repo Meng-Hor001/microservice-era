@@ -8,6 +8,6 @@ public class DemoController {
 
     @GetMapping("/demo")
     public String demo() {
-        return "Business Service - Version 1";
+        return "Business Service - Version 2";
     }
 }
