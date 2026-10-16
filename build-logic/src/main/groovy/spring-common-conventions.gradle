@@ -2,7 +2,7 @@ plugins {
     id 'java-library'
     id 'io.spring.dependency-management'
 }
-group = 'co.istad.project'
+group = 'kh.edu.istad'
 version = '1.0.0'
 java {
     toolchain {

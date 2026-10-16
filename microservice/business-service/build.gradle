@@ -1,14 +1,8 @@
 plugins {
-    id 'java'
-}
-
-group = 'co.edu.kh'
-version = '1.0-SNAPSHOT'
-
-repositories {
-    mavenCentral()
+    id 'springboot-common-conventions'
 }
 
 dependencies {
-    implementation(project(":istad-common:istad-common-domain"))
+    implementation 'org.springframework.boot:spring-boot-starter-webmvc'
+
 }

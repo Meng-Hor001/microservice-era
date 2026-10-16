@@ -3,4 +3,3 @@ rootProject.name = 'microservice-era'
 includeBuild 'istad-common'
 includeBuild 'microservice'
 
-include 'build-logic'
