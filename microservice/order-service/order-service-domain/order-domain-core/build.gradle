@@ -1,0 +1,13 @@
+plugins {
+    id 'java-common-conventions'
+}
+
+
+
+dependencies {
+    api libs.istad.common.domain
+}
+
+test {
+    useJUnitPlatform()
+}

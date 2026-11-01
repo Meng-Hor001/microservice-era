@@ -1,18 +1,10 @@
 plugins {
-    id 'java'
-}
-
-group = 'co.edu.kh'
-version = 'unspecified'
-
-repositories {
-    mavenCentral()
+    id 'spring-common-conventions'
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:6.0.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
-    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    api libs.customer.application.service
+    implementation libs.spring.boot.starter.webmvc
 }
 
 test {

@@ -3,7 +3,13 @@ plugins {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-webmvc'
+    implementation libs.spring.boot.starter.webmvc
+
+    implementation libs.customer.domain.core
+    implementation libs.customer.application.service
+    implementation libs.customer.service.message
+    implementation libs.customer.service.persistence
+    implementation libs.customer.service.restapi
 }
 
 test {
