@@ -4,6 +4,11 @@ plugins {
 
 
 dependencies {
+    implementation libs.order.domain.core
+    implementation libs.order.application.service
+    implementation libs.order.service.persistence
+
+
     implementation libs.spring.boot.starter.webflux
 }
 
